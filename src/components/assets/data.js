@@ -19,3 +19,71 @@ export const skills = [
   },
 
 ]
+
+
+export const technologies = [
+  {
+    'id': 1,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+  },
+  {
+    'id': 2,
+    'icon':"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+  },
+  {
+    'id': 3,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+  },
+  {
+    'id': 4,
+    'icon':"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+  },
+  {
+    'id': 5,
+    'icon':"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+  },
+  {
+    'id': 6,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+  },
+  {
+    'id': 7,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
+  },
+  {
+    'id': 8,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg"
+  },
+  {
+    'id': 9,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+  },
+  {
+    'id': 10,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+  },
+  {
+    'id': 11,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+  },
+  {
+    'id': 12,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+  },
+  {
+    'id': 13,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/heroku/heroku-original.svg"
+  },
+  {
+    'id': 14,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
+  },
+  {
+    'id': 15,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+  },
+  {
+    'id': 16,
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+  },
+]
