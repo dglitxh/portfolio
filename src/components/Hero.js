@@ -26,10 +26,10 @@
 
             return (
                 <motion.div id="hero" className='container mt-5 d-flex flex-column h-100'
-              variants={containerVariants}
-              initial='hidden'
-              animate="visible"
-              exit="exit"
+              // variants={containerVariants}
+              // initial='hidden'
+              // animate="visible"
+              // exit="exit"
               >
             <Row >
               <Col sm={{span:24}} lg={{span:12}} md={{span:24}}>
