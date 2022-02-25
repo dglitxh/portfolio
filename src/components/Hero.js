@@ -2,6 +2,7 @@
         import React from 'react';
         import { Row, Col } from 'antd'
         import { motion } from 'framer-motion';
+        import coderSvg from './utils/svgs/codred.svg'
         import { Link } from 'react-router-dom'
 
 
@@ -25,7 +26,7 @@
         };
 
             return (
-                <motion.div id="hero" className='container mt-5 d-flex flex-column h-100'
+                <motion.div id="hero" className='container mt-5 mb-5 d-flex flex-column h-100'
               // variants={containerVariants}
               // initial='hidden'
               // animate="visible"
@@ -43,6 +44,7 @@
                 <h1 className="">
                   Cutting edge solutions in<br></br>
                 </h1>
+
                 <p className=" mb-4">We are engineers and strategists. Creators of thoughtful
                  and elegant technology solutions that shape the future.
 
@@ -61,7 +63,7 @@
                 <motion.img
                   animate={{ scale: [0.2, 1.5, 1] }}
                   transition={{ ease: "easeOut", duration: 2 }}
-                 src={'heroSvg'} className="img-fluid" alt="svg" loading="lazy" />
+                 src={coderSvg} className="img-fluid" alt="svg" loading="lazy" />
               </div>
               </Col>
             </Row>

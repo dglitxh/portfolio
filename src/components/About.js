@@ -30,15 +30,15 @@ const Services = () => {
         animate="visible"
         exit="exit"
       >
-        <h2 className="text-center"> What I Do</h2>
-      <Row >
+        <h2 className="mb-4"> What I Do</h2>
+      <Row className="mt-5">
       {skills.map((service) => {
         return(
           <Col xs={{span:24}} sm={{span:12}} lg={{span:8}} md={{span:8}}>
             <div key={service.id} data-aos="zoom-out-down" data-aos-duration="1500" className="info-card">
               <img alt="icon" src={service.icon}/>
             <h4 className='text-xl text-sky-600'> {service.heading} </h4>
-              <p class="card-text">{service.text.slice(0,80)+"...."}</p>
+              <p class="card-text">{service.text}</p>
       </div>
 
       </Col>
