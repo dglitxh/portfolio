@@ -1,46 +1,52 @@
 import {techStack} from './assets/data'
 import { motion } from "framer-motion"
+import  codeSvg from './utils/svgs/code.svg'
+import { Row, Col  } from 'antd'
 
 
 
 const Skills = () => {
 
-  const container = {
-      hidden: { opacity: 0 },
-      show: {
-        opacity: 1,
-        transition: {
-          delayChildren: 1,
-          staggerDirection: -1
-        }
-      }
-    }
-
-    const child = {
-      hidden: { opacity: 0 },
-      show: { opacity: 1 }
-    }
     return (
         <div >
         <div className='container'>
         <h2 className=' mt-5 mb-3'> My Stack </h2>
-          <motion.div
-            variants={container}
-            initial="hidden"
-            animate="show"
-            className='devIcons'>
-
+        <Row >
+        <Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:12}} >
+        <div className="hero-img p-3 m-4">
+          <motion.img
+            animate={{ scale: [0.2, 1.5, 1] }}
+            transition={{ ease: "easeOut", duration: 2 }}
+           src={codeSvg} className="img-fluid" alt="svg" loading="lazy" />
+        </div>
+        </Col>
+          <Col sm={{span:24}} lg={{span:12}} md={{span:24}}>
+          <div className='devIcons p-3 m-4'>
             {
               techStack.map((item) => {
                 return(
-                  <motion.div key="item.id" variants={child} className="iconImg">
-                    <img   alt="dev_icon" src={item.icon} width='85'/>
-                    <h6 className='text-center mt-1'> {item.name}</h6>
-                  </motion.div>
+                  <div
+                   key={item.id} className="iconImg ">
+                    <motion.img
+                    whileHover={{ scale: 1.2, rotate: 360, duration: 2, opacity:1}}
+                    whileTap={{
+                      scale: 0.8,
+                      rotate: -360,
+                      borderRadius: "100%"}}  alt="dev_icon" src={item.icon} width='65'/>
+                    <p
+                    className='text-center mt-1 devicon-text'>
+                      {item.name}
+                    </p>
+                  </div>
                 )
               })
             }
-          </motion.div>
+          </div>
+
+          </Col>
+
+        </Row>
+
           </div>
         </div>
     )

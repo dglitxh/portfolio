@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="  navbar navbar-expand-lg">
         <div className="container">
 
-          <Link to={'/'} className="navbar-brand"> YD</Link>
+          <h3 className="navbar-brand"> YD</h3>
 
                 <div className="collapse-close ">
                   <button onClick={showDrawer} className="navbar-toggler" type="button" data-toggle="collapse"

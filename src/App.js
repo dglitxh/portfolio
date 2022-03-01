@@ -6,11 +6,10 @@ import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import About from "./components/About"
 import 'antd/dist/antd.min.css'
-import { NextUIProvider } from '@nextui-org/react'
+
 
 function App() {
   return (
-    <NextUIProvider theme={'dark'}>
       <div className="App">
         <Navbar/>
         <Hero/>
@@ -20,7 +19,6 @@ function App() {
         <Contact/>
         <Footer/>
       </div>
-    </NextUIProvider>
   );
 }
 

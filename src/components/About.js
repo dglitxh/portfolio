@@ -1,5 +1,4 @@
 import { Row, Col } from 'antd';
-import { useState } from 'react';
 import { skills } from './assets/data'
 import { motion } from 'framer-motion'
 
@@ -9,11 +8,11 @@ const Services = () => {
   const containerVariants = {
     hidden: {
       opacity: 0,
-      y: '-100vh'
+      x: '-100vh'
     },
     visible: {
       opacity: 1,
-      y: 0,
+      x: 0,
       transition: { type: 'spring', duration: 4 }
     },
     exit: {
@@ -37,7 +36,7 @@ const Services = () => {
           <Col xs={{span:24}} sm={{span:12}} lg={{span:8}} md={{span:8}}>
             <div key={service.id} data-aos="zoom-out-down" data-aos-duration="1500" className="info-card">
               <img alt="icon" src={service.icon}/>
-            <h4 className='text-xl text-sky-600'> {service.heading} </h4>
+            <h4 className='text-xl '> {service.heading} </h4>
               <p class="card-text">{service.text}</p>
       </div>
 
