@@ -48,7 +48,7 @@
                    transition={{ ease: "easeOut", duration: 2 }}
                >
 
-                <h1 className="">
+                <h1 className="big-hero">
                   Yaw<br></br><span>Deezy.</span>
                 </h1>
 
