@@ -1,5 +1,6 @@
-import {Row, Col } from 'antd'
+import {Row, Col, Image } from 'antd'
 import {projects} from './assets/myprojects'
+
 
 const Projects = ( ) => {
 
@@ -10,15 +11,15 @@ const Projects = ( ) => {
 <Row>
 {projects.map((project) => {
 return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
-        <div class="card rounded-3 mb-5 m-3 project_card">
+        <div key={project.id} class="card rounded-3 mb-5 m-3 project_card">
           <div class="px-4 ">
-           <a href="https://codescandy.com/geeks-bootstrap-5/index.html" rel="noreferrer" target="_blank">
-           <img src={project.site} alt="pic" class="mt-n6 pt-2 img-fluid w-100 smooth-shadow-md rounded-3"/>
-            </a>
+
+           <Image src={project.site} alt="pic" class="mt-n6 pt-2 img-fluid w-100 smooth-shadow-md rounded-3"/>
+
           </div>
           <div class="card-body px-4 py-5 p-md-8">
             <div class="border-bottom pb-3 mb-5">
-              <h3 class="mb-2 fw-bold display-5"> <a href="#slime" class="text-inherit">Course Design.</a></h3>
+              <h3 class="mb-2 fw-bold display-5"> <a href="#slime" class="text-inherit">{project.name}</a></h3>
               <p class="lead">When setting up a site or app for your university
                 or school, Geeks courses and education
                 template is an ideal tool to start.</p>

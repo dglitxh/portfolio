@@ -15,9 +15,9 @@ export const projects = [
   },
   {
     'id': 3,
-    "name": 'Blog API',
+    "name": 'IceBlog API',
     "desc": '',
-    'site':require('../utils/imgs/shelfmade.png'),
+    'site':require('../utils/imgs/iceblog.png'),
     'github': ""
   },
   {
