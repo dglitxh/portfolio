@@ -23,7 +23,7 @@ const Services = () => {
 };
 
     return (
-        <motion.div id="services" className="services container mt-5 mb-10"
+        <motion.div id="services" className="services container my-5 mb-10"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
@@ -34,7 +34,7 @@ const Services = () => {
       {skills.map((service) => {
         return(
           <Col xs={{span:24}} sm={{span:12}} lg={{span:8}} md={{span:8}}>
-            <div key={service.id} data-aos="zoom-out-down" data-aos-duration="1500" className="info-card">
+            <div key={service.id} data-aos="zoom-out-down" data-aos-duration="1500" className="info-card my-4">
               <img alt="icon" src={service.icon}/>
             <p className='my-2 display-5 card-h4'> {service.heading} </p>
               <p class="card-text">{service.text}</p>

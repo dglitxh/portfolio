@@ -12,7 +12,7 @@ const Skills = () => {
         <div className='container'>
         <h2 className=' mt-5 mb-3'> My Stack </h2>
         <Row >
-        <Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:12}} >
+        <Col xs={{span:24}} sm={{span:24}} md={{span:24}} lg={{span:12}} >
         <div className="hero-img p-3 m-4">
           <motion.img
             animate={{ scale: [0.2, 1.5, 1] }}
