@@ -41,27 +41,7 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
       })
 }
         </Row>
-        {// <div className="row justify-content-lg-between align-items-center pb-5 pb-lg-6">
-        //   <div className="col-lg-5 order-lg-2 mb-4 mb-lg-0">
-        //     <h2 className="fw-normal">Photography</h2>
-        //     <p className="fw-light text-light">
-        //       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-        //       eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        //     </p>
-        //     <a href="project-4.html" className="link-underline">View project</a>
-        //   </div>
-        //   <div className="col-lg-6 order-lg-1">
-        //     <a href="project-4.html">
-        //       <figure className="img-overlay">
-        //         <img src="assets/img/portfolio-3.jpg" alt="Photography landing page" className="img-thumbnail" width="800" height="550"/>
-        //         <div className="img-hover">
-        //           <p className="img-text">View Project</p>
-        //         </div>
-        //       </figure>
-        //     </a>
-        //   </div>
-        // </div>
-      }
+       
         </div>
     )
 }
