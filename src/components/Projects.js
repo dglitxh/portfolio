@@ -5,9 +5,9 @@ import {projects} from './assets/myprojects'
 const Projects = ( ) => {
 
     return (
-        <div classNameName="container">
+        <div className="container">
 
-        <h2 classNameName=' mt-5 mb-3'> Projects </h2>
+        <h2 className=' mt-5 mb-3'> Projects </h2>
 <Row>
 {projects.map((project) => {
 return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
@@ -41,7 +41,7 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
       })
 }
         </Row>
-       
+
         </div>
     )
 }
