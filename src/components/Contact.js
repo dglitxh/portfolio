@@ -12,9 +12,9 @@ const Contact = () =>  {
             </div>
             </Col>
               <Col sm={{span:24}} lg={{span:12}} md={{span:12}}>
-
-                
-
+                <div>
+                <img src="https://img.icons8.com/material-two-tone/24/000000/external-link.png" alt='link_img'/>
+                </div>
               </Col>
               <Col xs={{span:0}} sm={{span:0}} md={{span:0}} lg={{span:12}} >
               <div className="">
