@@ -23,5 +23,13 @@ export const projects = [
     'img':require('../utils/imgs/iceblog.png'),
     'github': "http://github.com/dglitxh/Blog-Api"
   },
-  
+  {
+    'id': 4,
+    "name": 'BlueHut',
+    "desc": '',
+    'site': 'http://bluehutengineering.netlify.app',
+    'img':require('../utils/imgs/iceblog.png'),
+    'github': "http://github.com/dglitxh/Bluehut"
+  },
+
 ]
