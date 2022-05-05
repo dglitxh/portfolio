@@ -130,3 +130,8 @@ h2:before{
   color: white;
   border: none;
 }
+.contacts{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
