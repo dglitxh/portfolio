@@ -5,7 +5,7 @@ import {projects} from './assets/myprojects'
 const Projects = ( ) => {
 
     return (
-        <div className="container">
+        <div id="projects" className="container">
 
         <h2 className=' mt-5 mb-3'> Projects </h2>
 <Row>

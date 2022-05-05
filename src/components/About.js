@@ -23,7 +23,7 @@ const Services = () => {
 };
 
     return (
-        <motion.div id="services" className="services container my-5 mb-10"
+        <motion.div id="about" className="services container my-5 mb-10"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
