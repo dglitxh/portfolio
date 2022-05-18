@@ -5,7 +5,8 @@ export const projects = [
     "desc": '',
     'site': 'http://shelfmade.netlify.app',
     'img': require('../utils/imgs/shelf.png'),
-    'github': "http://github.com/dglitxh/Shelfmade"
+    'github': "http://github.com/dglitxh/Shelfmade",
+    'stack': ["react", "redux", "firebase", "chakra-ui", "tailwind"]
   },
   {
     'id': 2,
@@ -13,7 +14,8 @@ export const projects = [
     "desc": '',
     'site': 'http://resumakers.netlify.app',
     'img':require('../utils/imgs/resumaker.png'),
-    'github': "http://github.com/dglitxh/CV-gen"
+    'github': "http://github.com/dglitxh/CV-gen",
+    'stack': ["react", "ant design", "framer motion", "tailwind"]
   },
   {
     'id': 3,
@@ -21,7 +23,8 @@ export const projects = [
     "desc": '',
     'site': 'http://iyceblog.herokuapp.com',
     'img':require('../utils/imgs/iceblog.png'),
-    'github': "http://github.com/dglitxh/Blog-Api"
+    'github': "http://github.com/dglitxh/Blog-Api",
+    'stack': ['django', 'django-rest', 'swagger', "dj-rest-auth"]
   },
   {
     'id': 4,
@@ -29,7 +32,8 @@ export const projects = [
     "desc": '',
     'site': 'http://bluehutengineering.netlify.app',
     'img':require('../utils/imgs/iceblog.png'),
-    'github': "http://github.com/dglitxh/Bluehut"
+    'github': "http://github.com/dglitxh/Bluehut",
+    'stack': ["react", "framer motion", "tailwind"]
   },
 
 ]
