@@ -52,7 +52,7 @@
                   Yaw<br></br><span>Deezy.</span>
                 </h1>
 
-                <p className=" mb-4">I develop fullstack Applications with Python and JavaScript.
+                <p className=" mb-4">I develop fullstack Applications with Go, Python and JavaScript.
 
                 </p>
 
