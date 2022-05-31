@@ -9,7 +9,7 @@ const Skills = () => {
 
     return (
         <div >
-        <div className='container'>
+        <div id="skills" className='container'>
         <h2 className=' mt-5 mb-3'> My Stack </h2>
         <Row >
         <Col xs={{span:24}} sm={{span:24}} md={{span:24}} lg={{span:12}} >
@@ -21,7 +21,7 @@ const Skills = () => {
         </div>
         </Col>
           <Col sm={{span:24}} lg={{span:12}} md={{span:24}}>
-          <div className='devIcons p-3 m-4'>
+          <div className='devIcons p-1 m-1'>
             {
               techStack.map((item) => {
                 return(
