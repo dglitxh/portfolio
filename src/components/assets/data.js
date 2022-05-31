@@ -103,4 +103,10 @@ export const techStack = [
     'name': 'Html',
     'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
   },
+  {
+    'id': 17,
+    'name': 'Go',
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original-wordmark.svg"
+  },
+
 ]
