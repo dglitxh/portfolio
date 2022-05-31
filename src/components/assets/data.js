@@ -60,7 +60,8 @@ export const techStack = [
   {
     'id': 8,
     'name': 'Django',
-    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg"
+    'icon': "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+  
   },
   {
     'id': 9,
