@@ -25,7 +25,7 @@
         // };
 
             return (
-                <motion.div id="hero" className='container mt-5 mb-5 d-flex flex-column h-100'
+                <motion.div id="home" className='container mt-5 mb-5 d-flex flex-column h-100'
               // variants={containerVariants}
               // initial='hidden'
               // animate="visible"
