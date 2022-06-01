@@ -29,7 +29,7 @@ const Navbar = () => {
                           </div>
                         <div className="navbar-collapse collapse">
                           <ul className="navbar-nav ms-auto mb-1 mb-lg-0 navbar-nav">
-                            <li className="nav-item"><a href={'#'} className="nav-link">Home</a></li>
+                            <li className="nav-item"><a href={'#home'} className="nav-link">Home</a></li>
                             <li className="nav-item"><a href={'#about'} className="nav-link">About</a></li>
                             <li className="nav-item"><a href={'#skills'} className="nav-link">Skills</a></li>
                             <li className="nav-item"><a href={'#projects'} className="nav-link">Projects</a></li>
