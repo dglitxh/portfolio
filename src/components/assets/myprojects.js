@@ -11,7 +11,7 @@ export const projects = [
   {
     'id': 2,
     "name": 'Resumaker',
-    "desc": 'An app to create and print out resumes in blink',
+    "desc": 'An app to create and print out resumes in a blink',
     'site': 'http://resumakers.netlify.app',
     'img':require('../utils/imgs/resumaker.png'),
     'github': "http://github.com/dglitxh/CV-gen",
