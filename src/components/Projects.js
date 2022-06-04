@@ -24,7 +24,7 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
               <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap'}}>
                 {project.stack.map(el=>{
                   return(
-                    <Button className={"my-1"} shape='round'>{el}</Button>
+                    <Button className={"m-1"} shape='round'>{el}</Button>
                   )
                 })}
               </div>
