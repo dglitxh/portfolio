@@ -21,10 +21,10 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
             <div className="border-bottom pb-3 mb-5">
               <h3 className="mb-2 fw-bold display-5"> <a href="#slime" className="text-inherit">{project.name}</a></h3>
               <p className="lead">{project.desc}</p>
-              <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap'}}>
+              <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', flexWrap: 'wrap'}}>
                 {project.stack.map(el=>{
                   return(
-                    <Button shape='round'>{el}</Button>
+                    <Button className={"my-1"} shape='round'>{el}</Button>
                   )
                 })}
               </div>
