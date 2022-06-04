@@ -2,7 +2,7 @@ export const projects = [
   {
     'id': 1,
     'name': "Shelfmade",
-    "desc": '',
+    "desc": 'A shopping cart with a checkout system',
     'site': 'http://shelfmade.netlify.app',
     'img': require('../utils/imgs/shelf.png'),
     'github': "http://github.com/dglitxh/Shelfmade",
@@ -11,7 +11,7 @@ export const projects = [
   {
     'id': 2,
     "name": 'Resumaker',
-    "desc": '',
+    "desc": 'An app to create and print out resumes in blink',
     'site': 'http://resumakers.netlify.app',
     'img':require('../utils/imgs/resumaker.png'),
     'github': "http://github.com/dglitxh/CV-gen",
@@ -20,7 +20,7 @@ export const projects = [
   {
     'id': 3,
     "name": 'IceBlog API',
-    "desc": '',
+    "desc": 'A blog Api made with django rest framework',
     'site': 'http://iyceblog.herokuapp.com',
     'img':require('../utils/imgs/iceblog.png'),
     'github': "http://github.com/dglitxh/Blog-Api",
@@ -29,7 +29,7 @@ export const projects = [
   {
     'id': 4,
     "name": 'BlueHut',
-    "desc": '',
+    "desc": 'A landing page for a burgeoning engineering firm',
     'site': 'http://bluehutengineering.netlify.app',
     'img':require('../utils/imgs/iceblog.png'),
     'github': "http://github.com/dglitxh/Bluehut",
