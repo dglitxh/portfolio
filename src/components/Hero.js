@@ -57,7 +57,7 @@
                 </p>
 
                   <button className="mr-3 hero-button btn btn-primary btn-large">
-                    Get Quote
+                    <a href='#projects' >Projects</a>
                   </button>
 
 
