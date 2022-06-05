@@ -10,8 +10,8 @@ const Projects = ( ) => {
         <h2 className=' mt-5 mb-3'> Projects </h2>
 <Row>
 {projects.map((project) => {
-return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
-        <div key={project.id} className="card rounded-3 mb-5 m-3 project_card">
+return(<Col key={project.id}  xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
+        <div className="card rounded-3 mb-5 m-3 project_card">
           <div className="px-2 ">
             <div>
            <Image src={project.img} alt="pic" className="mt-n6 pt-2 img-fluid w-100 smooth-shadow-md rounded-3"/>
@@ -24,7 +24,7 @@ return(<Col xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{span:8}}>
               <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap'}}>
                 {project.stack.map(el=>{
                   return(
-                    <Button className={"m-1"} shape='round'>{el}</Button>
+                    <Button key={el+String(Math.random(20))} className={"m-1"} shape='round'>{el}</Button>
                   )
                 })}
               </div>

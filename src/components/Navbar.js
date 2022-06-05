@@ -16,8 +16,8 @@ const Navbar = () => {
   };
 
     return (
-      <nav className="  navbar navbar-expand-lg">
-        <div className="container">
+      <nav  className=" navbar navbar-expand-lg">
+        <div id="nav" className="container">
 
           <h3 className="navbar-brand "> YDeezy</h3>
 
