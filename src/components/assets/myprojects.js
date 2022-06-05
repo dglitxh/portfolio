@@ -24,7 +24,7 @@ export const projects = [
     'site': 'http://iyceblog.herokuapp.com',
     'img':require('../utils/imgs/iceblog.png'),
     'github': "http://github.com/dglitxh/Blog-Api",
-    'stack': ['django', 'django-rest', 'swagger', "dj-rest-auth"]
+    'stack': ['django', 'django-rest-framework', 'swagger', "dj-rest-auth"]
   },
   {
     'id': 4,
