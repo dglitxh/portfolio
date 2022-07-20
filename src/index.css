@@ -22,7 +22,7 @@ h1{
 }
 
 #root{
-  background-color: #14213D ;
+  background-color: #333533 ;
   color: #E5E5E5;
 }
 
@@ -67,7 +67,7 @@ h1{
 
 .card-h4{
   font-size: 140%;
-  color: gray;
+  color: #c0b9dd;
 }
 .btn-primary{
   background-color: #F50057;
