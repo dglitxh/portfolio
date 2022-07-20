@@ -22,8 +22,8 @@ h1{
 }
 
 #root{
-  /* background-color: #0e1d32 ;
-  color: rgba(182, 182, 182, 0.972); */
+  background-color: #14213D ;
+  color: #E5E5E5;
 }
 
 .nav-item a{
@@ -35,7 +35,7 @@ h1{
 }
 
 .nav-item a:hover{
-  color: #F50057;
+  color: #E5E5E5;
 }
 
 
@@ -99,7 +99,7 @@ h2 {
     padding-bottom: 1%;
     position: relative;
     font-size: 180%;
-    color: grey;
+    color: #FCA311;
 }
 
 h2:before{
