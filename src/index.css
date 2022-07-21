@@ -67,19 +67,19 @@ h1{
 
 .card-h4{
   font-size: 140%;
-  color: #c0b9dd;
+  color: #88d498;
 }
 .btn-primary{
-  background-color: #F50057;
+  background-color: #06d6a0 ;
   border: none;
 }
 
 .btn-primary:hover{
-  background-color: #f50000;
+  background-color: #7bf1a8;
 }
 
 .hero h1 span {
-  color: #F50057;
+  color: #06d6a0 ;
   font-size: 200%;
 }
 .devIcons{
@@ -93,13 +93,13 @@ h1{
   font-size: 90%;
 }
 
-h2 {
+.container h2 {
     font-weight: 300;
     display: inline-block;
     padding-bottom: 1%;
     position: relative;
     font-size: 180%;
-    color: #FCA311;
+    color: #06d6a0 ;
 }
 
 h2:before{
@@ -109,7 +109,7 @@ h2:before{
     height: 1px;
     bottom: 0;
     left: 5%;
-    border-bottom: 1.5px solid #F50057;
+    border-bottom: 1.5px solid #E5E5E5;
 }
 
 .iconImg{
@@ -127,12 +127,12 @@ h2:before{
 }
 
 .btn-outline-primary{
-  border: 1px solid #F50057;
-  color: #F50057;
+  border: 1px solid #E5E5E5;
+  color: #E5E5E5;
 }
 
 .btn-outline-primary:hover{
-  background: #F50057;
+  background: #06d6a0 ;
   color: white;
   border: none;
 }
