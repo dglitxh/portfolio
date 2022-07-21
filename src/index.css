@@ -22,7 +22,7 @@ h1{
 }
 
 #root{
-  background-color: #333533 ;
+  background-color: #293241 ;
   color: #E5E5E5;
 }
 
@@ -138,6 +138,7 @@ h2:before{
 }
 .contacts{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
