@@ -56,9 +56,9 @@
 
                 </p>
 
-                  <button className="mr-3 hero-button btn btn-primary btn-large">
-                    <a href='#projects' >Projects</a>
-                  </button>
+                  <a className="mr-3 hero-button btn btn-primary btn-large" href='#projects'>
+                     Projects
+                  </a>
 
 
 
