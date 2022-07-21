@@ -13,7 +13,9 @@ const Contact = () =>  {
             </Col>
               <Col sm={{span:24}} lg={{span:12}} md={{span:12}}>
                 <div className="contacts">
-                <h3>
+                  <h3>You can always shoot me an email on</h3>
+                  <br></br>
+                <h3 classname="my-5">
                 <a href="http://ydee.netlify.app" rel='noreferrer' target="_blank">email </a>
                 
                  </h3>
