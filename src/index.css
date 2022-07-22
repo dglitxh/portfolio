@@ -126,6 +126,13 @@ h2:before{
   border: 1px solid rgba(182, 182, 182, 0.972);
 }
 
+.proj-name {
+  color: #7bf1a8;
+}
+
+.stack-ls {
+  background-color: red;
+}
 .btn-outline-primary{
   border: 1px solid #E5E5E5;
   color: #E5E5E5;
