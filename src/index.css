@@ -140,5 +140,8 @@ h2:before{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.contacts h3 {
+   color: #7bf1a8;
 }
