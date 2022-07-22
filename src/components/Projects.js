@@ -19,12 +19,12 @@ return(<Col key={project.id}  xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{
           </div>
           <div className="card-body px-4 py-5 p-md-8">
             <div className="border-bottom pb-3 mb-5">
-              <h3 className="mb-2 fw-bold display-5"> <a href="#slime" className="text-inherit">{project.name}</a></h3>
+              <h3 className="proj-name mb-2 display-7"> {project.name}</h3>
               <p className="lead">{project.desc}</p>
               <div style={{display: 'flex', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', flexWrap: 'wrap'}}>
                 {project.stack.map(el=>{
                   return(
-                    <Button key={el+String(Math.random(20))} className={"m-1"} shape='round'>{el}</Button>
+                    <Button ghost key={el+String(Math.random(20))} className={"m-1 stack-ls"} shape='round'>{el}</Button>
                   )
                 })}
               </div>
