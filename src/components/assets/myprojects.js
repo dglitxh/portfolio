@@ -35,5 +35,14 @@ export const projects = [
     'github': "http://github.com/dglitxh/Bluehut",
     'stack': ["react", "framer motion", "tailwind"]
   },
+  {
+    'id': 4,
+    "name": 'Patiently',
+    "desc": 'A rest api to store medical recods',
+    'site': "",
+    'img':require('../utils/imgs/iceblog.png'),
+    'github': "http://github.com/dglitxh/Patiently",
+    'stack': ["go", "gin", "docker", "postgresql", "redis"]
+  },
 
 ]
