@@ -30,10 +30,10 @@ return(<Col key={project.id}  xs={{span:24}} sm={{span:24}} md={{span:12}} lg={{
               </div>
             </div>
             <div className="d-flex flex-row justify-content-center">
-              <a href={project.site} target="_blank" rel="noreferrer" className="btn btn-outline-primary mx-2">
+              {!project.site? <></> : <a href={project.site} target="_blank" rel="noreferrer" className="btn btn-outline-primary mx-2">
                 Live demo <i className="fe fe-arrow-right"></i>
 
-              </a>
+              </a>}
               <a href={project.github} target="_blank" rel="noreferrer" className="btn btn-outline-primary mx-2">
                 github <i className="fe fe-arrow-right"></i>
 
