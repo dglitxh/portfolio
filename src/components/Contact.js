@@ -31,7 +31,7 @@ const Contact = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  email{" "}
+                  email
                 </a>
               </Button>
             </h3>
