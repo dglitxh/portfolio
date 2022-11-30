@@ -1,5 +1,5 @@
 import contImg from "./utils/svgs/contact.svg";
-import { Row, Col } from "antd";
+import { Row, Col, Button } from "antd";
 const Contact = () => {
   return (
     <div id="contact" className="container">
@@ -25,13 +25,15 @@ const Contact = () => {
             <h3 classname="mt-3">You can always shoot me an email on: </h3>
             <br></br>
             <h3 classname="my-5">
-              <a
-                href="mailto:dzzy104@gmail.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                email{" "}
-              </a>
+              <Button>
+                <a
+                  href="mailto:dzzy104@gmail.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  email{" "}
+                </a>
+              </Button>
             </h3>
           </div>
         </Col>
