@@ -4,28 +4,28 @@ import { motion } from "framer-motion";
 import coderSvg from "./utils/svgs/codred.svg";
 
 const Hero = () => {
-  //   const containerVariants = {
-  //     hidden: {
-  //     y: '100vh',
-  //   },
-  //   visible: {
-  //     y: 0,
-  //     transition: { delay: 0.2, duration: 0.5 }
-  //   },
-  //   exit: {
-  //     x: "-100vh",
-  //     transition: { ease: 'easeInOut' }
-  //   }
-  // };
+  const containerVariants = {
+    hidden: {
+      y: "100vh",
+    },
+    visible: {
+      y: 0,
+      transition: { delay: 0.2, duration: 0.5 },
+    },
+    exit: {
+      x: "-100vh",
+      transition: { ease: "easeInOut" },
+    },
+  };
 
   return (
     <motion.div
       id="home"
       className="container mt-5 mb-5 d-flex flex-column h-100"
-      // variants={containerVariants}
-      // initial='hidden'
-      // animate="visible"
-      // exit="exit"
+      variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      exit="exit"
     >
       <Row>
         <Col
