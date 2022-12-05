@@ -33,8 +33,16 @@ const Contact = () => {
                 >
                   email
                 </a>
-
-<a href="GitHub">github</a>
+                <a href="github.com/dglitxh" rel="noreferrer" target="_blank">
+                  github
+                </a>
+                <a
+                  href="codewars.com/Ydglitch"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  codewars
+                </a>
               </Button>
             </h3>
           </div>
