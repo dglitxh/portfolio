@@ -22,7 +22,7 @@ const Contact = () => {
         </Col>
         <Col sm={{ span: 24 }} lg={{ span: 12 }} md={{ span: 12 }}>
           <div className="contacts">
-            <h3 classname="mt-3">You can always shoot me an email on: </h3>
+            <h3 classname="mt-3">You can always contact me on: </h3>
             <br></br>
             <h3 classname="my-5">
               <Button>
@@ -33,9 +33,13 @@ const Contact = () => {
                 >
                   email
                 </a>
+              </Button>
+              <Button>
                 <a href="github.com/dglitxh" rel="noreferrer" target="_blank">
                   github
                 </a>
+              </Button>
+              <Button>
                 <a
                   href="codewars.com/Ydglitch"
                   rel="noreferrer"
