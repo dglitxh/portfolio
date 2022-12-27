@@ -58,7 +58,8 @@ const Hero = () => {
             </h1>
 
             <p className=" mb-4">
-              I develop fullstack Applications with Go, Python and JavaScript.
+              I craft scalable and roubust fullstack Applications with Go,
+              Python and JavaScript.
             </p>
 
             <a
