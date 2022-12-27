@@ -33,18 +33,19 @@ const Contact = () => {
               >
                 email
               </a>
+              <br></br>
 
               <a
-                href="github.com/dglitxh"
+                href="http://github.com/dglitxh"
                 rel="noreferrer"
                 target="_blank"
                 className="btn btn-outline-primary mx-2"
               >
                 github
               </a>
-
+              <br></br>
               <a
-                href="codewars.com/Ydglitch"
+                href="http://codewars.com/Ydglitch"
                 rel="noreferrer"
                 target="_blank"
                 className="btn btn-outline-primary mx-2"
