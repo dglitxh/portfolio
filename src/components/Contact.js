@@ -29,18 +29,16 @@ const Contact = () => {
                 href="mailto:dzzy104@gmail.com"
                 rel="noreferrer"
                 target="_blank"
-                className="btn btn-outline-primary mx-2"
+                className="btn btn-outline-primary my-2"
               >
                 email
               </a>
-              <br></br>
-              <br></br>
-              <br></br>
+
               <a
                 href="http://github.com/dglitxh"
                 rel="noreferrer"
                 target="_blank"
-                className="btn btn-outline-primary mx-2"
+                className="btn btn-outline-primary my-3"
               >
                 github
               </a>
@@ -51,7 +49,7 @@ const Contact = () => {
                 href="http://codewars.com/users/Ydglitch"
                 rel="noreferrer"
                 target="_blank"
-                className="btn btn-outline-primary mx-2"
+                className="btn btn-outline-primary my-2"
               >
                 codewars
               </a>
