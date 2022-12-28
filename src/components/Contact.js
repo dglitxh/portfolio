@@ -33,7 +33,7 @@ const Contact = () => {
               >
                 email
               </a>
-
+              <br></br>
               <a
                 href="http://github.com/dglitxh"
                 rel="noreferrer"
@@ -42,8 +42,6 @@ const Contact = () => {
               >
                 github
               </a>
-              <br></br>
-              <br></br>
               <br></br>
               <a
                 href="http://codewars.com/users/Ydglitch"
